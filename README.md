@@ -22,7 +22,7 @@ A lab environment for testing memory vulnerabilities in Flutter applications. Fo
 - Flutter DevTools monitoring
 
 ## Use Cases
-- Bug bounty research
+- Bug research
 - Memory leak detection
 - Sensitive data exposure analysis
 - Retained memory inspection
