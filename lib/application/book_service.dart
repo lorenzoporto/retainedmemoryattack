@@ -6,6 +6,10 @@ class BookService {
 
   BookService(this._repository);
 
+  Future<List<Book>> findAll() async {
+    return await _repository.findAll();
+  }
+
   Future<Book> borrowBook(BookId id) async {
     final book = await _repository.findById(id);
     if (!book.isAvailable) {
